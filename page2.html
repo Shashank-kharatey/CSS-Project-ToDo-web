@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/42c87fb2dd.js" crossorigin="anonymous"></script>
+    <title>CSS Project page2</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .pg2fixed {
+            position: fixed;
+            top: 300px;
+            left: 600px;
+            width: 350px;
+            height: 250px;
+            background-color: white;
+            border: 1px solid #EDEDED;
+            border-radius: 10px;
+        }
+        .pg2fixed h3 {
+            padding-left: 15px;
+        }
+        .textarea {
+            width: 290px;
+            height: 20px;
+            color: gray;
+            border: 2px solid gray;
+            clear: both;
+            display: block;
+            margin-top: 50px;
+            margin-left: 10px;
+            padding-top: 5px;
+        }
+        .page {
+            position: fixed;
+            top: 0px;
+            left: 250px;
+             background: rgba(0,0,0,0.5);
+        }
+        .mainlistbox {
+             background: rgba(0,0,0,0.09); 
+        }
+        #heading {
+            background: rgba(0,0,0,0.03);
+        }
+        .add-button {
+            top: 125px;
+            right: -54px;
+        }
+    </style>
+</head>
+<body>
+    <a href="./page3.html">
+        <div class="page">
+            <div id="heading">Tasks <span class="list"> List </span></div>
+            <div class="mainindex">
+                <div class="mainlistbox" id="mainlistbox1">
+                    <span class="listheading" >Trip to Paris</span>
+                    <hr color="#3b3939">
+                     <div class="input">
+                    <input type="checkbox" checked > <span style="color: #C2C2C2;text-decoration: line-through;"> Visit Church</span>
+                    <br>
+                    <br>
+                    <input type="checkbox" > <span style="color: #3b3939;">Shopping </span></div>
+                </div>
+                <div class="mainlistbox" id="mainlistbox2">
+                    <span class="listheading">My To Do List</span>
+                    <hr color="#3b3939">
+                    <div class="input">
+                    <input type="checkbox" checked > <span style="color: #C2C2C2;text-decoration: line-through;">  Visit Supermarket</span>
+                    <br>
+                    <br>
+                    <input type="checkbox" > <span style="color: #3b3939;">Buy Vegetables </span></div>
+                </div>
+                <div class="mainlistbox" id="mainlistbox3">
+                    <span class="listheading">Movies I Will Watch</span>
+                    <hr color="#3b3939">
+                    <div class="input">
+                    <input type="checkbox" checked > <span style="color: #C2C2C2;text-decoration: line-through;">  Strangers Things 4</span>
+                    <br>
+                    <br>
+                    <input type="checkbox" > <span style="color: 3b3939;">Avengers endgame </span></div>
+                </div>
+                <div class="mainlistbox" id="mainlistbox4">
+                    <span class="listheading">Daily Morning Routine for...</span>
+                    <hr color="#3b3939">
+                    <div class="input">
+                    <input type="checkbox" checked > <span style="color: #C2C2C2;text-decoration: line-through;">  Wake Up at 6.AM</span>
+                    <br>
+                    <br>
+                    <input type="checkbox" > <span style="color: #3b3939;">Sleep at 10.PM </span></div>
+                </div>
+                <div class="mainlistbox" id="mainlistbox5">
+                    <span class="listheading">Books to Read</span>
+                    <hr color="#3b3939">
+                    <div class="input">
+                    <input type="checkbox" checked >  <span style="color: #C2C2C2; text-decoration: line-through;"> Design of Everyday</span> 
+                    <br>
+                    <br>
+                    <input type="checkbox" > <span style="color: #3b3939;">Alchemist </span></div>
+                </div>
+            </div>
+            <div class="add-button">
+                <i class="fa-solid fa-circle-plus add-logo"></i>
+                <h3>Add new task</h3>
+            </div>
+        </div>
+    </a>
+    <div class="pg2fixed">
+        <div class="closebutton">&times;</div>
+        <h3>Add new Task</h3>
+        <hr>
+        <span class="textarea">Learn C++</span><br>
+         <span style="background-color: #00A5EC; height: 20px; width: 100px; color: white; float: right;display: block;padding: 10px;"><i class="fa-solid fa-circle-plus add-logo"></i> &nbsp; Add task</span>
+    </div>
+</body>
+</html>

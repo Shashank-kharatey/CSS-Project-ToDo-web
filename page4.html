@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/42c87fb2dd.js" crossorigin="anonymous"></script>
+    <title>CSS Project page4</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        #heading {
+            background: rgba(0,0,0,0.03);
+        }
+        .page {
+            position: fixed;
+            top: 0px;
+            left: 250px;
+             background: rgba(0,0,0,0.5);
+        }
+        .back-logo {
+            font-size: 30px;
+            position: relative;
+            bottom: 6px;
+        }
+        .back {
+            width: 100px;
+        }
+        .add-logo {
+            position: relative;
+            bottom: 6px;
+        }
+        #mainlistbox1 {
+            position: relative;
+            top: 80px;
+            right: 350px;
+            width: 400px;
+            font-size: 20px;
+        }
+        .listheading {
+            font-size: 28px;
+            padding-left: 100px;
+        }
+        .pg4fixed {
+            position: fixed;
+            top: 300px;
+            left: 550px;
+            width: 350px;
+            height: 260px;
+            background-color: white;
+            border: 1px solid #EDEDED;
+            border-radius: 10px;
+        }
+        .pg4fixed h3 {
+            padding-left: 15px;
+        }
+        .textarea {
+            width: 290px;
+            height: 20px;
+            color: gray;
+            border: 2px solid gray;
+            clear: both;
+            display: block;
+            margin-top: 50px;
+            margin-left: 10px;
+            padding-top: 5px;
+        }
+        .mainlistbox {
+             background: rgba(0,0,0,0.09); 
+             border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div id="heading">Tasks <span class="list"> List </span></div>
+            <div class="mainindex"> 
+                <div class="back">
+                    <i class="fa-solid fa-circle-arrow-left back-logo"></i> BACK
+                </div>
+                <div class="add-button-page3">
+                    <i class="fa-solid fa-circle-plus add-logo"></i>
+                    Add new task
+                </div>
+                <div class="mainlistbox" id="mainlistbox1">
+                    <span class="listheading" >Trip to Paris</span>
+                    <hr color="#EDEDED">
+                     <div class="input">
+                    <input type="checkbox" checked > <span style="color: #C2C2C2;text-decoration: line-through;"> Visit Church</span>
+                    <br>
+                    <br>
+                    <input type="checkbox" > <span style="color: #5d5a5a;">Shopping </span>
+                </div>
+            </div>  
+    </div>
+    <div class="pg4fixed">
+        <div class="closebutton">&times;</div>
+        <h3>Add new Task</h3>
+        <hr>
+        <span class="textarea">Visit famous Places</span><br>
+        <span  style="background-color: #00A5EC; height: 20px; width: 130px; color: white; float: right;display: block;padding: 10px;">
+        <i class="fa-solid fa-circle-plus add-logo"></i> &nbsp; Add items</span>
+    </div>
+</body>
+</html>
