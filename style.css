@@ -26,28 +26,22 @@
     margin-top: 100px;
     margin-left: 100px;
     display: grid;
-    grid-template-columns:repeat(3, 240px);
+    grid-template-columns: 260px 256px 260px;
     grid-template-rows: 250px 250px;
     gap: 30px;
-    /* justify-content: space-around; */
-    
 }
 .mainlistbox {
     font-weight: bold;
-    color:#00A5EC ;
-    width: 240px;
+    width: 260px;
     height: 250px;
     border: 1px solid #EDEDED;
     background-color:#FFFFFF;
     border-radius: 5px;
-    
 }
-.listheading {
-    
-    display: block;
-    padding-top: 15px;
-    padding-left: 10px;
-    line-height: 30px;
+.mainlistbox h3{
+    height: 15px;
+    padding-left: 5px;
+    color:#00A5EC ;
 }
 .input {
     word-spacing: 3px;
