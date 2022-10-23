@@ -21,41 +21,50 @@
             bottom: 6px;
             color: #00A5EC;
         }
-        #mainlistbox1 {
+        .mainlistbox {
             position: relative;
-            top: 80px;
-            right: 350px;
+            bottom: 100px;
+            left: 200px;
             width: 400px;
             font-size: 20px;
         }
-        .listheading {
-            font-size: 28px;
-            padding-left: 100px;
+        .page3mainindex {
+            width: 100%;
+            height: 800px;
+            margin-top: 100px;
+            margin-left: 100px;
+        }
+        .mainlistbox h3 {
+            height: 10px;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
-    <a href="./page4.html">
-        <div class="page">
+    <div class="page">
+        <a href="./page4.html">
             <div id="heading">Tasks <span class="list"> List </span></div>
-                <div class="mainindex"> 
-                    <div class="back">
-                        <i class="fa-solid fa-circle-arrow-left back-logo"></i> BACK
-                    </div>
-                    <div class="add-button-page3">
-                        <i class="fa-solid fa-circle-plus add-logo"></i>
-                        Add new task
-                    </div>
-                    <div class="mainlistbox" id="mainlistbox1">
-                        <span class="listheading" >Trip to Paris</span>
-                        <hr color="#EDEDED">
-                         <div class="input">
-                        <input type="checkbox" checked > <span style="color: #C2C2C2;text-decoration: line-through;"> Visit Church</span>
-                        <br>
-                        <br>
-                        <input type="checkbox" > <span style="color: #5d5a5a;">Shopping </span></div>
-                </div>  
-        </div>
-    </a>
+            <div class="page3mainindex"> 
+                <div class="back">
+                    <i class="fa-solid fa-circle-arrow-left back-logo"></i> BACK
+                </div>
+                 <div class="add-button-page3">
+                    <i class="fa-solid fa-circle-plus add-logo"></i>
+                    Add new task
+                </div>
+                <div class="mainlistbox">
+                    <h3>Trip to Paris </h3>
+                    <hr color="#EDEDED">
+                    <div class="input">
+                    <input type="checkbox" checked > <span style="color: #C2C2C2;text-decoration: line-through;"> Visit Church</span>
+                    <br>
+                    <br>
+                    <input type="checkbox" > <span style="color: #5d5a5a;">Shopping </span>
+                </div>
+            </div>  
+         </a>
+    </div>
 </body>
 </html>
